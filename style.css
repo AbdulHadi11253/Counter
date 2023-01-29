@@ -12,3 +12,8 @@ body{
     margin-right: auto;
     width: 50%;
 }
+.Container h1{
+    font-size: 1rem;
+    font-family: segoe ui;
+}
+

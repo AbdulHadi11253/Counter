@@ -1,12 +1,16 @@
  
-  let x = document.querySelector("h2").innerHTML = 0;
+  let x = document.querySelector("h2");
+  let number = 1;
+   
  function add(){
-    //  document.querySelector("h2").innerHTML;
-    x.innerHTML = x++;
+   
+    x.textContent = number++;
     
  }
 
  function subtract(){
-    //  document.querySelector("h2").innerHTML;
-    x.innerHTML = x--;
+   
+  
+    x.innerHTML = number--;
+
  }
